@@ -1,9 +1,3 @@
-// faire un projet git
-// mettre ce script
-// mettre des exercices à faire
-// consigne pour cette exercice :
-// Bonjour nom1, nom2 et nom3
-
 
 /*let nom = "Montmasson";
 let prenom = "Elodie";
@@ -47,12 +41,25 @@ console.log(tabUtilisateurs[3].nom);*/
 // à la ligne (index) 1, on a le deuxième élément
 // à la ligne (index) 2, on a le troisième élément
 
+// exercice 1
+/*
+    let utilisateur = {nom: "Alice Dupont" , email: "alice.dupont@email.com" };
+    console.log(utilisateur.nom, utilisateur.email);
+*/
+
+// exercice 2 
 
 // let utilisateurs = [
 //     {nom: "Alice Dupont" , email: "alice.dupont@email.com" }, // ligne 0, colonne nom : "Alice Dupont"
 //     {nom: "Bob Martin" , email: "bob.martin@email.com"},
 //     {nom: "Charlie Durand", email: "charlie.durand@email.com"}
 // ]
+/*
+     for(let ligneTableau = 0; ligneTableau < utilisateurs.length; ligneTableau = ligneTableau +1 ) {
+         console.log(utilisateurs[ligneTableau].nom, utilisateurs[ligneTableau].email);
+     }
+*/
+// exercice 3 et 4
 
 createUserHtml();
 
